@@ -4,9 +4,9 @@ const cols = 5;
 const main = document.getElementById('main');
 let parts = [];
 
-let images = ["images/sample2.jpg",
-"images/sample3.jpg",
-"images/sample1.jpg"
+let images = ["img/pic008.jpg",
+"img/pic006.jpg",
+"img/pic009.jpg"
 ];
 let current = 1;
 let playing = false;
