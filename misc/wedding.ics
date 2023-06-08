@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Seoul
+LAST-MODIFIED:20220622T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Seoul
+X-LIC-LOCATION:Asia/Seoul
+BEGIN:STANDARD
+TZNAME:KST
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220622T130558Z
+UID:1641906329399-45244@ical.marudot.com
+DTSTART;TZID=Asia/Seoul:20231014T170000
+DTEND;TZID=Asia/Seoul:20231014T180000
+SUMMARY:상준❤️은지 결혼식
+URL:https://youngil.with.woori.im
+#DESCRIPTION:찾아 오시는 길 : \n\n광명무역센터컨벤션\n경기도 광명시 일직로 72 광명무역센터 3층\n02-899-3535\n\n지하철 안내\n 1)지하철 1호선 광명역 (영등포 ↔ 광명역) 5번출구 → 도보 5분거리, 2)1호선 관악역 1번출구 (마을버스 1-1 코스트코 광명점 하차) → 도보 1분거리 \n\n자가용 안내\n내비게이션 "광명무역센터컨벤션" 검색\n \n\n셔틀버스 안내 (KTX광명역 셔틀버스 : 8507)\n사당역 4번출구 ↔ 서울대입구역 2번출구 ↔ KTX광명역 (20분 소요)
+LOCATION:경기도 광명시
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:상준❤️은지 결혼식
+TRIGGER:-P1W
+END:VALARM
+END:VEVENT
+END:VCALENDAR
