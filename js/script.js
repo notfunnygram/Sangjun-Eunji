@@ -173,3 +173,36 @@ function wheel(e) {
 }
 window.addEventListener('mousewheel', wheel, false);
 window.addEventListener('wheel', wheel, false);
+
+
+const url = 'https://notfunnygram.github.io/Sangjun-Eunji/';
+
+function setShare() {
+  const shareTitle = '모바일청첩장 공유하기';
+  const shareURL = url;
+    Kakao.Link.sendDefault({
+    objectType: 'feed',
+    content: {
+      title: shareTitle,
+      link: {
+        mobileWebUrl: shareURL,
+        webUrl: shareURL
+      },
+    },
+    buttons: [
+      {
+        title: '카카오톡 공유',
+        link: {
+          mobileWebUrl: shareURL,
+          webUrl: shareURL
+        },
+      }
+    ]
+  });
+}
+
+
+function copy() {
+  copyToClipboard('https://notfunnygram.github.io/Sangjun-Eunji/');
+  alert('링크가 복사되었습니다!');
+}

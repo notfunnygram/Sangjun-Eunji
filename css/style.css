@@ -195,3 +195,13 @@ h2 {
   padding-bottom: 1px;
 }
 
+#shareImg {
+  width: 70px;
+  height: auto;
+  margin-top : 10%;
+}
+
+footer{
+  text-align: center;
+  font-size: 13px;
+}
