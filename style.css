@@ -1,0 +1,197 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gowun Batang';
+  overflow-x: hidden;
+  cursor: url("data:image/svg+xml,%3Csvg width='40' height='29' viewBox='0 0 10 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19 22V4c0-1.103-.897-2-2-2H7c-1.103 0-2 .897-2 2v18l7-4.666L19 22zM8.006 8.056c0-.568.224-1.083.585-1.456.361-.372.86-.603 1.412-.603 0 0 .996-.003 1.997 1.029 1.001-1.032 1.997-1.029 1.997-1.029.552 0 1.051.23 1.412.603s.585.888.585 1.456-.224 1.084-.585 1.456L12 13.203 8.591 9.512a2.083 2.083 0 0 1-.585-1.456z' stroke='purple' stroke-width='1' /%3E%3C/svg%3E%0A"), auto !important; 
+}
+.body {
+  overflow: hidden;
+  width:100%; height: 100vh;
+}
+.padding-top {
+  padding-top: 100px;
+}
+
+
+.box-container
+
+.col {
+  flex: 1 0 0%;
+}
+.mb-2 {
+  margin-bottom: 0.5rem!important;
+}
+.mb-3 {
+  margin-bottom: 1rem!important;
+}
+.mb-5 {
+  margin-bottom: 3rem!important;
+}
+.form-floating {
+  position: relative;
+}
+.gap-2 {
+  gap: 0.5rem!important;
+}
+.d-grid {
+  display: grid!important;
+}
+
+div {
+  display: block;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  /*cursor: none;*/
+  user-select: none;
+  -webkit-user-drag: none;
+}
+#main {
+  display: flex; 
+}
+#main .part {
+  flex: 1;
+}
+#main .part .section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+#main .part .section img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: var(--x);
+  /* pointer-events: none; */
+}
+
+
+
+.buttons {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+.buttons button {
+  border: none;
+  background-size: contain;
+  background: url("data:image/svg+xml,%3Csvg width='10' height='29' viewBox='0 0 10 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19 22V4c0-1.103-.897-2-2-2H7c-1.103 0-2 .897-2 2v18l7-4.666L19 22zM8.006 8.056c0-.568.224-1.083.585-1.456.361-.372.86-.603 1.412-.603 0 0 .996-.003 1.997 1.029 1.001-1.032 1.997-1.029 1.997-1.029.552 0 1.051.23 1.412.603s.585.888.585 1.456-.224 1.084-.585 1.456L12 13.203 8.591 9.512a2.083 2.083 0 0 1-.585-1.456z' stroke='white' stroke-width='2' /%3E%3C/svg%3E%0A") no-repeat;
+ 
+  background-position: center;
+  width: 20x;
+  height: 15px;
+  display: block;
+  margin: 20px 0;
+  padding: 0 15px;
+  transition-duration: 0.6s;
+}
+/*.buttons button.next {
+  transform: scaleY(-1);
+}
+.buttons button.prev:active {
+  transform: translateY(8px);
+}
+.buttons button.next:active {
+  transform: scaleY(-1) translateY(8px);
+}*/
+h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 99;
+  color: white;
+  text-align: center;
+  font-family: 'Gowun Batang', sans-serif, cursive;
+  font-size: 2.8em;
+  mix-blend-mode: overlay;
+  /* pointer-events: none; */
+}
+h2 {
+  margin: auto;
+  color: rgb(8, 0, 0);
+  top: auto;
+  text-align: center;
+  font-family: 'Gowun Batang', sans-serif, cursive;
+  font-size: 1.8em;
+  padding-top: 50px;
+}
+
+
+.content {
+  width: 90%;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: white;
+  z-index: 99;
+  font-size: 0.8em;
+}
+.content p {
+  margin: 0.5em auto;
+}
+.content kbd {
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 0.9em;
+  vertical-align: text-top;
+}
+.content a {
+  color: rgba(227, 227, 227, 0.78);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+.content a:hover {
+  padding-bottom: 1px;
+}
+
