@@ -57,10 +57,10 @@
   .box1>img,
   .box2>img{ width:100%; }
   .box1{ width: 400px; margin:20px; height: 540;
-    background-color: orange; overflow: hidden;
+    background-color: rgb(254, 254, 254); overflow: hidden;
 }
-  .box2{ width: 250; margin:20px; height: 270px;
-      background-color: green;overflow: hidden;
+  .box2{ width: 250; margin:20px; height: auto;
+      background-color: rgb(255, 255, 255);overflow: hidden;
   }
   
   .intro{ text-align: center; font-size: 18px; font-style:normal ; font-family: 'Gowun Batang', sans-serif;}
@@ -131,6 +131,20 @@
       .box2{ width: calc(100% - 30px); }
   }
 
+
+  .carousel-inner .carousel-item > img {
+    -webkit-animation: thing 20s;
+    -o-animation: thing 20s;
+    animation: thing 20s; 
+  }
+  @keyframes thing {
+    from {
+       transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.5, 1.5);
+    }
+  }
 
  </style>
  
@@ -339,7 +353,7 @@ tinyTypewriter(typewritter, {
   <h2 class="text-center">오시는 길</h2>
     <p><strong>경기도 광명시 일직로 72 광명무역센터 3층</strong><br><a href="tel:02-899-3535">☎️ 02-899-3535</a></p>
     <p style="padding-bottom: 5px; font-size: 16px;"> ※건물 <a style="color: blue;">A,B,C동 구별없이</a> 엘레베이터 탑승 후 <br>3층으로 올라오시면 웨딩홀과 연결됩니다. </p>
-    <p style="margin-top: -20px; font-size: 16px;"> ※광명역사내 웨딩홀이 아닌 광명역 5번 출구 맞은편 <a style="font-weight: bold; text-decoration: underline;"><br>"광명무역센터컨벤션"</a> 웨딩홀입니다. </p>
+    <p style="margin-top: -20px; font-size: 16px;"> ※광명역사 내 웨딩홀이 아닌 광명역 5번 출구 맞은편 <a style="font-weight: bold; text-decoration: underline;"><br><strong>"광명무역센터컨벤션"</strong></a> 웨딩홀입니다. </p>
     <div class="infoBox">
       <a href="https://v4.map.naver.com/?edid=1998650504&elng=894036c756d143df0f920dfeb3777c58&elat=27352b38eb3a640d39d5f22e35af5648&eText=%EA%B4%91%EB%AA%85%EB%AC%B4%EC%97%AD%EC%84%BC%ED%84%B0%EC%BB%A8%EB%B2%A4%EC%85%98&eType=SITE_1" class="btnTB" target="_blank">네이버 네비게이션&nbsp; →</a>
       <a href="https://v4.map.naver.com/?mapmode=0&pinId=1998650504&pinType=site&lng=894036c756d143df0f920dfeb3777c58&lat=27352b38eb3a640d39d5f22e35af5648&dlevel=11&enc=b64" class="btnTB" target="_blank">네이버맵 지도보기&nbsp; →</a><br><br>
@@ -357,6 +371,7 @@ tinyTypewriter(typewritter, {
   <p>박동순 · 신현미</p>
   <p>신랑 박상준</p>
   </div>
+
   <div align="center">
   <p>신덕균 · 박정남</p>
   <p>신부 신은지</p>
