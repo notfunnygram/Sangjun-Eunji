@@ -201,10 +201,48 @@ function setShare() {
   });
 }
 
-
 function copy() {
-  copyToClipboard('https://notfunnygram.github.io/Sangjun-Eunji/');
+  var copyText = "https://notfunnygram.github.io/Sangjun-Eunji/";
+  navigator.clipboard.writeText(copyText);
   alert('링크가 복사되었습니다!');
+}
+
+
+function copyToClipboard1(){
+  
+  var copyText = "302-1345-7403-61";
+  navigator.clipboard.writeText(copyText);
+  alert("복사되었습니다!");
+}
+function copyToClipboard2(){
+  
+  var copyText = "110-435-340055";
+  navigator.clipboard.writeText(copyText);
+  alert("복사되었습니다!");
+}
+function copyToClipboard3(){
+  
+  var copyText = "302-7437-7793-41";
+  navigator.clipboard.writeText(copyText);
+  alert("복사되었습니다!");
+}
+function copyToClipboard4(){
+  
+  var copyText = "302-0418-8226-51";
+  navigator.clipboard.writeText(copyText);
+  alert("복사되었습니다!");
+}
+function copyToClipboard5(){
+  
+  var copyText = "485-1395-2068-466"; 
+  navigator.clipboard.writeText(copyText);
+  alert("복사되었습니다!");
+}
+function copyToClipboard6(){
+  
+  var copyText = "455-0265-2130-784";
+  navigator.clipboard.writeText(copyText);
+  alert("복사되었습니다!");
 }
 
 

@@ -84,6 +84,7 @@ p {
   user-select: none;
   -webkit-user-drag: none;
 }
+
 #main {
   display: flex; 
 }
