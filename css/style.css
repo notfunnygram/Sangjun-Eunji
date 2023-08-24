@@ -138,16 +138,18 @@ p {
 }*/
 h1 {
   position: absolute;
-  top: 70%;
+  top: 95%;
   transform: translateY(-50%);
   left: 0;
   right: 0;
   margin: auto;
   z-index: 99;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
   text-align: center;
   font-family: 'Gowun Batang', sans-serif, cursive;
-  font-size: 1.6em;
+  font-size: 1.4em;
   mix-blend-mode: overlay;
   /* pointer-events: none; */
 }
