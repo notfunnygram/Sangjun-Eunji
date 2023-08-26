@@ -103,6 +103,7 @@ p {
   object-fit: cover;
   position: absolute;
   left: var(--x);
+  z-index: 1;
   /* pointer-events: none; */
 }
 
@@ -144,7 +145,7 @@ h1 {
   left: 0;
   right: 0;
   margin: auto;
-  z-index: 1;
+  z-index: 100;
   postion: absolute;
   background: black;
   font-color: white;
