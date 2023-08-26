@@ -87,6 +87,7 @@ p {
 
 #main {
   display: flex; 
+  z-index:1;
 }
 #main .part {
   flex: 1;
