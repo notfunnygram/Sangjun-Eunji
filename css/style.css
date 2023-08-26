@@ -114,7 +114,7 @@ p {
   right: 25px;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 99;
+  z-index: 2;
 }
 .buttons button {
   border: none;
@@ -145,7 +145,7 @@ h1 {
   left: 0;
   right: 0;
   margin: auto;
-  z-index: 100;
+  z-index: 2;
   postion: absolute;
   background: black;
   font-color: white;
@@ -176,7 +176,7 @@ h2 {
   right: 0;
   margin: auto;
   color: white;
-  z-index: 99;
+  z-index: 2;
   font-size: 0.8em;
 }
 .content p {
