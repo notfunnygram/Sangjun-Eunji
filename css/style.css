@@ -148,14 +148,13 @@ h1 {
   margin: auto;
   z-index: 99;
   postion: absolute;
-  background: black;
   font-color: white;
   font-weight: bold;
   text-align: center;
   font-family: 'Noto Serif KR', serif;
   font-size: 1.4em;
-  mix-blend-mode: overlay;
-  /* pointer-events: none; */
+  /*mix-blend-mode: overlay;
+   pointer-events: none; */
 }
 h2 {
   margin: auto;
