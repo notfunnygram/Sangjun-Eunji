@@ -145,6 +145,8 @@ h1 {
   right: 0;
   margin: auto;
   z-index: 99;
+  postion: absolute;
+  background: black;
   font-color: white;
   font-weight: bold;
   text-align: center;
