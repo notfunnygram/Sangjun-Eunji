@@ -144,7 +144,7 @@ h1 {
   left: 0;
   right: 0;
   margin: auto;
-  z-index: 99;
+  z-index: 1;
   postion: absolute;
   background: black;
   font-color: white;
