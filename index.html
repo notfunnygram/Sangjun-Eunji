@@ -82,9 +82,9 @@
   .box img{width: 100%;
   text-align: center;
   }
-  .video{ width: 1000px; margin:100px auto; }
+  .video{ width: 1000px; margin:100px auto; padding: 0 25px 0 25px;}
   .map>iframe,
-  .video>iframe{ width: 1000px; height:  800px;}
+  .video>iframe{ width: 800px; height: auto;}
   .map>p{text-align: center;}
   .infoBox{text-align: center; padding: 10px; margin-bottom: 5px; margin: auto; padding-bottom: 5px;}
   .btnTB {
@@ -439,7 +439,7 @@ tinyTypewriter(typewritter, {
   <section id="section05">
   <h2> [ Video Preview ] </h2>
   <div class="video" >
-    <video controls muted preload="none" width="100%" height="auto">
+    <video autoplay controls muted loop preload="none" width="100%" height="auto">
       <source src="./img/mainvid.mp4" type="video/mp4">
     </video>
   </div>
