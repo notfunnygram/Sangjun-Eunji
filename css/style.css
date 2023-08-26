@@ -148,6 +148,8 @@ h1 {
   margin: auto;
   z-index: 99;
   postion: absolute;
+  font-size: 30px;
+  padding: 2px;
   color: #ffffff;
   background: #000000;
   font-weight: bold;
