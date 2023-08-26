@@ -145,7 +145,7 @@ h1 {
   right: 0;
   margin: auto;
   z-index: 99;
-  color: rgb(0, 0, 0);
+  font-color: white;
   font-weight: bold;
   text-align: center;
   font-family: 'Noto Serif KR', serif;
