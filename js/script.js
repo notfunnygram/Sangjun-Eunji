@@ -234,13 +234,13 @@ function copyToClipboard4(){
 }
 function copyToClipboard5(){
   
-  var copyText = "485-1395-2068-466"; 
+  var copyText = "485139-52-068-466"; 
   navigator.clipboard.writeText(copyText);
   alert("복사되었습니다!");
 }
 function copyToClipboard6(){
   
-  var copyText = "455-0265-2130-784";
+  var copyText = "455026-52-130784";
   navigator.clipboard.writeText(copyText);
   alert("복사되었습니다!");
 }
