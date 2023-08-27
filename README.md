@@ -7,7 +7,7 @@ https://notfunnygram.github.io/Sangjun-Eunji/
 
 
 ## 활용 도구
-* #### 프론트엔드
   * Html
   * CSS
   * JavaScript
+  * Bootstrap
