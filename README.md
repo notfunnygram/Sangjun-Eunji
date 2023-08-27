@@ -1,6 +1,6 @@
 # Sangjun-Eunji
-Our Wedding Invitation
-2023.10.14
+Our Wedding Invitation<br>
+2023.10.14<br>
 상준과 은지의 모바일 청첩장!
 
 https://notfunnygram.github.io/Sangjun-Eunji/
