@@ -141,18 +141,17 @@ p {
 }*/
 h1 {
   position: absolute;
-  top: 95%;
+  top: 80%;
   transform: translateY(-50%);
   left: 0;
   right: 0;
   margin: auto;
   z-index: 99;
-  postion: absolute;
-  font-size: 30px;
-  padding: 2px;
+  position: absolute;
+  font-size: 24px;
+  padding: 8px;
   color: #ffffff;
-  background: #000000;
-  font-weight: bold;
+  background: #00000096;
   text-align: center;
   font-family: 'Noto Serif KR', serif;
   font-size: 1.4em;
@@ -165,8 +164,9 @@ h2 {
   top: auto;
   text-align: center;
   font-family: 'Noto Serif KR', serif;
-  font-size: 1.4em;
   padding-top: 50px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 
