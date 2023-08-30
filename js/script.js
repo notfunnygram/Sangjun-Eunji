@@ -234,7 +234,7 @@ function copyToClipboard4(){
 }
 function copyToClipboard5(){
   
-  var copyText = "485139-52-068-466"; 
+  var copyText = "485139-52-068466"; 
   navigator.clipboard.writeText(copyText);
   alert("복사되었습니다!");
 }
