@@ -1,1 +1,2 @@
 before.mp4 filter=lfs diff=lfs merge=lfs -text
+after.mp4 filter=lfs diff=lfs merge=lfs -text
